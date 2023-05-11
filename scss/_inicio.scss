@@ -208,17 +208,16 @@
                     font-weight: $fontMedium;
                     color: $maincolor;
                     display: flex;
-                    }
-
-                        p{
-                            font-family: $mainfontssecondary;
-                            font-size: $textSm;
-                            font-weight: $fontLight;
-                            color: #000;
-                            text-align: center;
-                            max-width: 80%;
-                            
-                        }
+                }
+                
+                p{
+                    font-family: $mainfontssecondary;
+                    font-size: $textSm;
+                    font-weight: $fontLight;
+                    color: #000;
+                    text-align: center;
+                    max-width: 80%;
+                }
 
                 button{
                         font-family: $mainfontssecondary;
@@ -231,20 +230,16 @@
                         border-style: none;
                         border-radius: 30px 30px 30px 0px;
                         text-decoration: none;
-                        }
-
+                }
             }
-
         }
-
 }
 
 .galeria{
     columns: 3 100px;
-
     img{
         max-width: 100%;
-        padding: 5px
+        padding: 5px;
     }
 }
 
