@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: $maincolor;
+    padding: 30px 30px;
+
+    .icono-footer{
+        img{
+            width: 100px;
+        }
+    }
+
+    .icon-container{
+        img{
+        width: 20px;
+        }
+    }
+
+    ul{
+        justify-content: space-around;
+    }
+
+   
+    .nav-link{
+        color: $color-card;
+        font-size: $textSm;
+        font-family: $mainfontssecondary;
+        font-weight: $fontLight;
+
+            &:hover{
+                font-weight: $fontMedium;
+                font-family: $mainfontssecondary;
+                color: $color-light;
+            }
+        }
+}
