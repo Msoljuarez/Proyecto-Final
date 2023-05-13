@@ -1,0 +1,33 @@
+.container-beneficios{
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .card-beneficio{
+        background-color: #f3f3f3;
+        border: none;
+        border-radius: 20px;
+            &:hover{
+                background-color: $color-card;
+            }
+            .body-beneficio{
+                 padding: 15px 30px;
+
+                .title-beneficio{
+                    padding-top: 10px;
+                    font-family: $mainfontsprimary;
+                    font-size: $textLg;
+                    color: $maincolor;
+
+                }
+
+                .text-beneficio{
+                    font-family: $mainfontssecondary;
+                    font-size: $textSm !important;
+                    font-weight: $fontLight!important;
+                }
+             }
+    }
+
+}
