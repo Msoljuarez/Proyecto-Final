@@ -1,36 +1,86 @@
-:root {
-    --bg-primary: #0d6efd;
-    --bs-heading-color: #0d6efd;
-}
+.row{
+    justify-content: center;
 
-.nav-link {
-        color: white !important;
-    .navbar-toggler{
-         border: 1px solid white !important;
 
-         }
-             .navbar-toggler-icon {
-                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-        }
+    .contact-content{
+            .btn{
+                    font-family: $mainfontssecondary;
+                    font-size: $textSm;
+                    width: 100%;
+                    padding: 0.7em 2em;
+                    color: $maincolor;
+                    background-color: $color-light;
+                    border-style: solid 1px;
+                    border-color: $maincolor;
+                    border-radius: 30px 30px 30px 0px;
+                    text-decoration: none;
+                    
+
+                        &:hover{
+                        font-family: $mainfontssecondary;
+                        font-size: $textSm;
+                        width: 100%;
+                        height: fit-content;
+                        color: $color-light;
+                        background-color: $maincolor;
+                        border: solid 1px;
+                        border-radius: 30px 30px 30px 0px;
+                        text-decoration: none;
+                        
+
+                        }
+                        }
+            }
+            
+            
+            form{
+                flex-wrap: wrap;
+                width: 100%;
+
+                .items{
+                    padding-bottom: 30px;
+                    
+                    label{
+                        width: 100%;
+                        margin-bottom: px;
+                        font-family: $mainfontssecondary;
+                        font-size: $textSm;
+                        font-weight: $fontMedium;
+                        color: $color-dark;
+                    }
+
+                    input{
+                        border-style: none !important;
+                        background-color: $color-card!important;
+                        width: 100%;
+                        padding: 15px 10px;
+                        font-family: $mainfontssecondary;
+                        font-size: $textSm;
+                        font-weight: $fontLight;
+                    }
+
+                    textarea{
+                        border-style: none !important;
+                        padding: 15px 10px;
+                        background-color: $color-card !important;
+                        width: 100%;
+                        font-family: $mainfontssecondary;
+                        font-size: $textSm;
+                        font-weight: $fontLight;
+                    }
+                }
             }
 
+            .direccion{
+                    columns: 1 300px;
+                    padding-top: 10px;
+                    iframe{
+                        max-width: 100%;
+                        padding: 5px;
+                    }
+                
+            }
+
+} 
 
 
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-
-
-.footer-navigation-container{
-    width: 100%;
-}
-
-.button-login{
-    text-decoration: none;
-    color: #ffff;
-    background-color: #64AF13;
-    padding: 12px 30px;
-    border-radius: 30px 30px 0px 30px;
-    font-weight: 400;
-    font-size: 15px;
-}
