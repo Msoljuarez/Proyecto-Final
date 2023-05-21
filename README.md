@@ -72,7 +72,7 @@ Cómo finalizo este proyecto:
 
 Deployment de Github: https://msoljuarez.github.io/Proyecto-Final/
 
-Mi dominio: https://github.com/Msoljuarez/Proyecto-Final
+Mi dominio: [https://github.com/Msoljuarez/Proyecto-Final](https://msoljuarez.com/)
 
 Github pages: https://github.com/Msoljuarez/Proyecto-Final
 
